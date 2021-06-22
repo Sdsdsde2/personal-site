@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #101114;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,26 +24,37 @@
   color: white;
 }
 
-.App-pfp {
+.App-pfp-boarder {
   bottom: 10px;
   width: 200px;
   height: 200px;
-  background:rgb(226, 226, 226);
+  background:rgb(111, 0, 255);
   border-radius: 50%;
   position: relative;
   top: -110px;
 }
 
+.App-pfp {
+  top: 2.5px;
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  position: relative;
+}
+
 .App-title {
   align-items: center;
   margin-top: -12%;
-  color:rgb(226, 226, 226);
+  color:rgb(111, 0, 255);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #B026FF;
   font-size: calc(4px + 2vmin);
   margin-bottom: 0%;
+  margin-left: -500px;
+  margin-right: 500px;
+  opacity: 0;
 }
 
 @keyframes App-logo-spin {
