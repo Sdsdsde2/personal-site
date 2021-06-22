@@ -24,8 +24,26 @@
   color: white;
 }
 
+.App-pfp {
+  bottom: 10px;
+  width: 200px;
+  height: 200px;
+  background:rgb(226, 226, 226);
+  border-radius: 50%;
+  position: relative;
+  top: -110px;
+}
+
+.App-title {
+  align-items: center;
+  margin-top: -12%;
+  color:rgb(226, 226, 226);
+}
+
 .App-link {
   color: #61dafb;
+  font-size: calc(4px + 2vmin);
+  margin-bottom: 0%;
 }
 
 @keyframes App-logo-spin {
