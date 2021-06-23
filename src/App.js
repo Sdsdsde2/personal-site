@@ -28,7 +28,7 @@ export default class App extends Component {
             targets: target,
             translateX: 500,
             autoplay: true,
-            duration: 1850,
+            duration: 1650,
             delay: 15,
             easing: 'easeInOutSine'
           })
@@ -50,7 +50,7 @@ export default class App extends Component {
     if (e.target.id === "link-1") {
       window.location.href="https://github.com/Sdsdsde2"
     }
-    
+
     if (e.target.id === "link-2") {
       window.location.href="https://github.com/Sdsdsde2"
     }
@@ -79,21 +79,11 @@ export default class App extends Component {
             <h1 className="App-title">
               Shane Possibly
             </h1>
-            <h5 className="App-link" id="link-1" onClick={this.handleClick}>
-              Github
-            </h5>
-            <h5 className="App-link" id="link-2" onClick={this.handleClick}>
-              YouTube
-            </h5>
-            <h5 className="App-link" id="link-3" onClick={this.handleClick}>
-              Twitter
-            </h5>
-            <h5 className="App-link" id="link-4" onClick={this.handleClick}>
-              Linkedin
-            </h5>
-            <h5 className="App-link" id="link-5" onClick={this.handleClick}>
-              Medium
-            </h5>
+            <input type="button" className="App-link" id="link-5" onClick={this.handleClick} value=" Github "/>
+            <input type="button" className="App-link" id="link-4" onClick={this.handleClick} value="YouTube"/>
+            <input type="button" className="App-link" id="link-3" onClick={this.handleClick} value="Twitter"/>
+            <input type="button" className="App-link" id="link-2" onClick={this.handleClick} value="Linkedin"/>
+            <input type="button" className="App-link" id="link-1" onClick={this.handleClick} value="Medium"/>
           </div>
         </header>
       </div>
