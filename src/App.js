@@ -47,11 +47,11 @@ export default class App extends Component {
     // console.log(e)
     // console.log(e.target.id)
     // NOTE TO FUTURE SELF: When I click on the text i.e "Github" it doesn't redirect.
-    if (e.target.id === "link-1") {
+    if (e.target.id === "link-5") {
       window.location.href="https://github.com/Sdsdsde2"
     }
 
-    if (e.target.id === "link-2") {
+    if (e.target.id === "link-4") {
       window.location.href="https://github.com/Sdsdsde2"
     }
 
@@ -59,11 +59,11 @@ export default class App extends Component {
       window.location.href="https://twitter.com/ShanePossibly"
     }
 
-    if (e.target.id === "link-4") {
+    if (e.target.id === "link-2") {
       window.location.href="https://www.linkedin.com/in/shane-rachal-91013920a/"
     }
 
-    if (e.target.id === "link-5") {
+    if (e.target.id === "link-1") {
       window.location.href="https://shanerpersonal.medium.com/"
     }
   }
