@@ -52,7 +52,7 @@ export default class App extends Component {
     }
 
     if (e.target.id === "link-4") {
-      window.location.href="https://github.com/Sdsdsde2"
+      window.location.href="https://www.youtube.com/channel/UCaIuY9OCxRTaNHNs3VhTTEQ/videos"
     }
 
     if (e.target.id === "link-3") {
